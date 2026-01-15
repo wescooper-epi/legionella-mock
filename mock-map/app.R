@@ -3,6 +3,8 @@ library(dplyr)
 library(leaflet)
 library(lubridate)
 
+#From GH
+
 # ---- Load data ----
 df <- read.csv("case_movements_long.csv", stringsAsFactors = FALSE)
 
