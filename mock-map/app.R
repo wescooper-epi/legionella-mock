@@ -86,7 +86,7 @@ server <- function(input, output, session) {
       addMarkers(
         lng = ~longitude,
         lat = ~latitude,
-        icon = ~icons[as.character(type)],
+        icon = ~icons,
         popup = ~paste0(
           "<b>PHESS ID:</b> ", phess_id, "<br>",
           "<b>Type:</b> ", type, "<br>",
@@ -101,3 +101,5 @@ server <- function(input, output, session) {
 }
 
 shinyApp(ui, server)
+
+

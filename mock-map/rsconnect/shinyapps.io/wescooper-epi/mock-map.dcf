@@ -1,0 +1,12 @@
+name: mock-map
+title: mock-map
+username: wescooper-epi
+account: wescooper-epi
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16432519
+bundleId: 11448335
+url: https://wescooper-epi.shinyapps.io/mock-map/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
